@@ -8,6 +8,13 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    p "=================================================="
+    p @user 
+    p "=================================================="
+    @microposts = @user.microposts.paginate(page: params[:page])
+    p "=================================================="
+    p @microposts 
+    p "=================================================="
   end
   
   def destroy
