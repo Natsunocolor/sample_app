@@ -116,7 +116,7 @@ GEM
       turbolinks-source (~> 5)
     turbolinks-source (5.0.3)
     tzinfo (0.3.53)
-    uglifier (4.0.1)
+    uglifier (4.0.2)
       execjs (>= 0.3.0, < 3)
     warden (1.2.7)
       rack (>= 1.0)
